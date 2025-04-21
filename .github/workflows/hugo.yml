@@ -68,5 +68,5 @@ jobs:
         if: >
           success()
           && github.ref == 'refs/heads/main'
-          && github.repository == '2060-io/2060.io-website'
+          && github.repository == '2060-io/2060.io-website-new'
         uses: actions/deploy-pages@v4
